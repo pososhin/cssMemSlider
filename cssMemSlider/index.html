@@ -5,8 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/css/custom-radio.css" />
     <title>Document</title>
   </head>
-  <body>      
+  <body>
+    <div class="css-slider">
+      <input type="radio" name="slide" id="slide-1" value="slide-1" checked />
+      <label id="label-slide-1" for="slide-1"></label>
+      <input type="radio" name="slide" id="slide-2" value="slide-2" />
+      <label id="label-slide-2" for="slide-2"></label>
+      <div class="description">
+          <p class="slide-1">Первые котики</p>
+          <p class="slide-2">Другие котики</p>
+      </div>  
+      <ul class="images">
+        <li class="slide slide-1" id="li-1">
+          <img src="http://placekitten.com/500/306" />
+        </li>
+        <li class="slide slide-2">
+          <img src="http://placekitten.com/500/301" />
+        </li>
+      </ul>
+    </div>
   </body>
 </html>

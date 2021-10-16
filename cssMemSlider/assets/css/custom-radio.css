@@ -1,0 +1,17 @@
+input[type=radio] {
+  display: none;
+}
+
+label {
+  box-sizing: border-box;
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+  padding: 5px;
+  border-radius: 50%;
+  border: 2px blue solid;
+}
+label:hover {
+  background: grey;
+}
+
