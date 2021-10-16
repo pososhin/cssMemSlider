@@ -2,13 +2,16 @@
   padding: 0;
   margin: 0;
   text-decoration: none;
+  font-family: "Caveat", cursive;
+  color: #71ABFE;
 }
 
 body {
   width: 100%;
   height: 100%;
-  background: #24a34a;
+  background: #283a53;
   padding: 5%;
+  box-sizing: border-box;
 }
 
 .css-slider {
@@ -16,7 +19,6 @@ body {
   grid-template-columns: 0px 1fr 50px 50px 0px;
   grid-template-rows: 0px 10fr 10px 1fr 0px;
   grid-template-areas: "none  none   none   none   none" "non2  images images images non4" "non2  non5   non5   non5   non4" "non2  text   radio1 radio2 non4" "non3  non3   non3   non3   non3";
-  background: #a4e2b6;
   height: 100vh;
   width: 90%;
 }
@@ -27,14 +29,12 @@ body {
   overflow-x: hidden;
   border: 2px blue solid;
   border-radius: 20px;
-  background: #e2a4e2;
 }
 
 .description {
   display: flex;
   grid-area: text;
   overflow: hidden;
-  background: darksalmon;
 }
 
 input {
