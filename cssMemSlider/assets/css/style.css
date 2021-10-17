@@ -45,8 +45,8 @@ body {
 
 .css-slider {
   display: grid;
-  grid-template-columns: 0px 1fr repeat(7, 6vw) 0px;
-  grid-template-rows: 0px 90% 0px 10% 0px;
+  grid-template-columns: 0 1fr repeat(7, 6vw) 0;
+  grid-template-rows: 0 90% 0 10% 0;
   grid-template-areas: 
   "none  none none none none none none none none none" 
   "non2  images images images images images images images images non4" 
@@ -61,8 +61,8 @@ body {
   display: grid;
   grid-template-columns: repeat(7, 90vw);
   overflow: hidden;
-  border: 2px #71abfe solid;
-  border-radius: 20px;
+  border: 0.5vw #71abfe solid;
+  border-radius: 2vw;
 }
 
 .description {
@@ -108,12 +108,13 @@ img {
 }
 
 li.slide {
-  backdrop-filter: blur(15px);
-  -webkit-backdrop-filter: blur(15px);
+  backdrop-filter: blur(4vw);
+  -webkit-backdrop-filter: blur(4vw);
 }
 
 .description p {
-  transform: translateY(200px);
+  margin-top: 1.2vw;
+  transform: translateY(50vw);
   order: 1;
 }
 
@@ -294,8 +295,8 @@ div.slide-7 {
 
 @media screen and (max-width: 540px) {
   .css-slider {
-    grid-template-columns: 0px 1fr repeat(7, 6vw) 1fr 0px;
-    grid-template-rows: 0px 80% 10% 30% 0px;
+    grid-template-columns: 0 1fr repeat(7, 6vw) 1fr 0;
+    grid-template-rows: 0 80% 10% 30% 0;
     grid-template-areas: 
     "none  none none none none none none none none none    none" 
     "non2  images images images images images images images images images  non4" 
