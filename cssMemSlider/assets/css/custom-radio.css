@@ -7,6 +7,7 @@ label {
   width: 3vw;
   height: 5vw;
   margin: 1vw;
+  margin-left: 3vw;
   padding: 1vw;
   background: url("../svg/radio.svg");
   background-position: center;
@@ -14,6 +15,20 @@ label {
   background-size: 3vw;
   filter: invert(56%) sepia(89%) saturate(586%) hue-rotate(189deg) brightness(102%) contrast(99%);
   transition: all 0.5s ease;
+}
+@media screen and (max-width: 540px) {
+  label {
+    width: 5vw;
+    height: 7vw;
+    margin-left: unset;
+    margin: 1vw;
+    padding: 1vw;
+  }
+}
+@media screen and (max-width: 540px) {
+  label {
+    background-size: 5vw;
+  }
 }
 label:hover {
   cursor: pointer;
@@ -32,11 +47,87 @@ label:active {
   background-repeat: no-repeat;
   background-size: 3vw;
 }
+@media screen and (max-width: 540px) {
+  #slide-1:checked ~ #label-slide-1 {
+    background-size: 5vw;
+  }
+}
 
+/* bullet  */
 #slide-2:checked ~ #label-slide-2 {
   background: url("../svg/radio-checked.svg");
   background-position: center;
   background-repeat: no-repeat;
   background-size: 3vw;
+}
+@media screen and (max-width: 540px) {
+  #slide-2:checked ~ #label-slide-2 {
+    background-size: 5vw;
+  }
+}
+
+/* bullet  */
+#slide-3:checked ~ #label-slide-3 {
+  background: url("../svg/radio-checked.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 3vw;
+}
+@media screen and (max-width: 540px) {
+  #slide-3:checked ~ #label-slide-3 {
+    background-size: 5vw;
+  }
+}
+
+/* bullet  */
+#slide-4:checked ~ #label-slide-4 {
+  background: url("../svg/radio-checked.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 3vw;
+}
+@media screen and (max-width: 540px) {
+  #slide-4:checked ~ #label-slide-4 {
+    background-size: 5vw;
+  }
+}
+
+/* bullet  */
+#slide-5:checked ~ #label-slide-5 {
+  background: url("../svg/radio-checked.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 3vw;
+}
+@media screen and (max-width: 540px) {
+  #slide-5:checked ~ #label-slide-5 {
+    background-size: 5vw;
+  }
+}
+
+/* bullet  */
+#slide-6:checked ~ #label-slide-6 {
+  background: url("../svg/radio-checked.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 3vw;
+}
+@media screen and (max-width: 540px) {
+  #slide-6:checked ~ #label-slide-6 {
+    background-size: 5vw;
+  }
+}
+
+/* bullet  */
+#slide-7:checked ~ #label-slide-7 {
+  background: url("../svg/radio-checked.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 3vw;
+}
+@media screen and (max-width: 540px) {
+  #slide-7:checked ~ #label-slide-7 {
+    background-size: 5vw;
+  }
 }
 
