@@ -18,7 +18,9 @@ body {
 #label-slide-1 {
   grid-area: radio1;
 }
-
+label{
+  user-select: none;
+}
 #label-slide-2 {
   grid-area: radio2;
 }
@@ -81,8 +83,6 @@ body {
   list-style: none;
   width: 100%;
   box-sizing: border-box;
-  top: 0;
-  left: 0;
   transition: all 0.5s ease;
 }
 
